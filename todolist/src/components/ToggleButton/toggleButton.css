@@ -1,0 +1,78 @@
+.buttonToggle {
+  position: relative;
+  left: 50px;
+  height: 30px;
+  width: 60px;
+}
+
+.buttonToggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  background-color: var(--grey-dark);
+  border-radius: 15px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.2s;
+}
+
+.slider:before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  transition: 0.3s;
+}
+
+input:checked + .slider:before {
+  transform: translateX(28px);
+}
+
+input:checked + .slider {
+  background-color: var(--yellow);
+}
+
+.alert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  position: fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--grey-medium);
+  color: white;
+  border-radius: 1em;
+  padding: 1.5em;
+  text-align: center;
+  z-index: 1;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.accept {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 2.5rem;
+  border: none;
+  background-color: var(--yellow);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.accept:hover {
+  background-color: var(--green);
+}

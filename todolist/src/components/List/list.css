@@ -1,0 +1,32 @@
+.listContainer {
+  background-color: var(--blue);
+  position: absolute;
+  top: 150px;
+  height: 500px;
+  width: 900px;
+  border-radius: 20px;
+  border: 8px solid var(--yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newTask {
+  height: 100px;
+  width: 900px;
+  position: absolute;
+  top: 0;
+  background-color: var(--yellow);
+  border-radius: 0 0 10px 10px;
+}
+
+.pendingTasks{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+}
