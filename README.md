@@ -77,12 +77,12 @@ PORT: 3000
 ````
 * Open a terminal and start the server:
 ```
-$ cd ToDo_API
+$ cd backend
 $ npm start
 ````
 * Open a different terminal and start the client:
 ```
-$ cd mytodoapp
+$ cd todolist
 $ npm run dev
 ````
 * Open a web browser and go to the following port to view the application:
