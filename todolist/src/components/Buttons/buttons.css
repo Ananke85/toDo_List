@@ -1,0 +1,88 @@
+.buttons {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  left: 700px;
+}
+
+.edit {
+  background-color: transparent;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+  color: var(--grey-dark);
+}
+
+.edit:hover {
+  color: #ffcb3a;
+}
+
+.delete {
+  background-color: transparent;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 2px;
+  color: var(--grey-dark);
+}
+
+.delete:hover {
+  color: #ffcb3a;
+}
+
+.editionContainer {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  left: 150px;
+  top: 4px;
+  background-color: var(--green);
+}
+
+.formBoxEdition {
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 0.6em;
+  color: var(--grey-medium);
+  background-color: var(--blue);
+  border: 2px solid var(--grey-dark);
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  left: -4px;
+  padding-left: 10px;
+}
+
+.editTask {
+  height: 35px;
+  width: 200px;
+  position: relative;
+  left: 80px;
+  top: 4px;
+  border-radius: 15px;
+  background-color: var(--grey-dark);
+  color: var(--blue);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+  border: none;
+  cursor: pointer;
+}
+
+.editTask:hover {
+  background-color: var(--yellow);
+  color: var(--grey-dark);
+}
+
+.alertButtons {
+  display: flex;
+  gap: 2em;
+}
