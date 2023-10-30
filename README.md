@@ -88,6 +88,6 @@ $ npm run dev
 * Open a web browser and go to the following port to view the application:
 ```
 http://localhost:5173/
-
+```
 # Project Lead
 Lorena Carmona
